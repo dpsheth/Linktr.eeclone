@@ -84,8 +84,23 @@ main {
     margin: 0 auto;
     transition-duration: 200ms;
     cursor: pointer;
+    overflow: hidden;
+    color: white;
+    text-decoration: none;
 }
 
 .link:hover {
     border-color: skyblue;
+}
+
+.linkBackground {
+    position: absolute;
+    inset: 0;
+    background: #020617;
+    opacity: 0.6;
+    z-index: -1;
+}
+
+.link p {
+    font-size: 0.8em;
 }
